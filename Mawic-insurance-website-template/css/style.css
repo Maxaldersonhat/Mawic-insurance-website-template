@@ -593,7 +593,7 @@
     height: 100%;
 }
 .container-background {
-    background: url('/img/Family-personal-potrait-image.jpg') no-repeat center center;
+    background: url('/Mawic-insurance-website-template/img/Family-personal-potrait-image.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     min-height: 50vh;
@@ -602,7 +602,7 @@
     justify-content: left;
 }
 .container-background-business {
-    background: url('/img/business-solutions-banner.jpg') no-repeat center center;
+    background: url('/Mawic-insurance-website-template/img/business-solutions-banner.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     min-height: 70vh;
