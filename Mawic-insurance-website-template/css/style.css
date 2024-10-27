@@ -310,7 +310,7 @@
     align-items: left;
 }
 .carousel-background {
-    background: url('/img/carousel-image-1.jpg') no-repeat center center;
+    background: url('img/carousel-image-1.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     min-height: 100vh;
@@ -375,16 +375,8 @@
 
 
 /*** Single Page Hero Header Start ***/
-.bg-breadcrumb {
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px 0 60px 0;
-    transition: 0.5s;
-}
+
+
 
 .bg-breadcrumb .breadcrumb {
     position: relative;
@@ -611,7 +603,7 @@
     justify-content: left;
 }
 .container-background-about {
-    background: url('/img/about-us.jpg') no-repeat center center;
+    background: url('/Mawic-insurance-website-template/img/about-us.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     min-height: 50vh;
@@ -620,7 +612,7 @@
     justify-content: left;
 }
 .container-background-contact {
-    background: url('/img/contact-us-banner.jpg') no-repeat ;
+    background: url('/Mawic-insurance-website-template/img/contact-us-banner.jpg') no-repeat ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -897,7 +889,7 @@
 .custom-mpesa-icon {
     width: 30px;
     height: 30px;
-    background-image: url('/img/Mpesa-icon.png');
+    background-image: url('/Mawic-insurance-website-template/img/Mpesa-icon.png');
     background-size: cover;
     margin-left: 5px;
 }
