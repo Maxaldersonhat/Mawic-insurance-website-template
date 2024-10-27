@@ -310,7 +310,7 @@
     align-items: left;
 }
 .carousel-background {
-    background: url('/Mawic-insurance-website-template/img/carousel-image-1.jpg') no-repeat center center;
+    background: url('img/carousel-image-1.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     min-height: 100vh;
