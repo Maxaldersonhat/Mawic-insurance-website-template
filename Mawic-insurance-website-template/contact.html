@@ -117,13 +117,7 @@
         <!-- Navbar & Hero End -->
 
         
-        <!-- Header Start -->
-        <div class="container-fluid container-background-contact">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h4>   
-            </div>
-        </div>
-        <!-- Header End -->
+        
 
 
         <!-- Contact Start -->
@@ -133,6 +127,8 @@
                     <h4 class="text-primary">Contact Us</h4>
                     <h1 class="display-4 mb-4">Get in Touch</h1>
                 </div>
+                <form action="https://formspree.io/f/movqjkga"
+                      method="POST" >
                 <div class="row g-5">
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="contact-img d-flex justify-content-center" >
@@ -161,9 +157,9 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="tel" id="phone" name="phone" placeholder="+254 7XX XXX XXX" pattern="^\+254[7-9][0-9]{8}$"
-                                                required maxlength="13" class="form-control" onkeypress="return isNumber(event)">
-                                            <label for="phone">Your Phone</label>
+                                            <input type="tel" id="phone" name="phone"
+                                               class="form-control" onkeypress="return isNumber(event)">
+                                            <label for="phone">Enter phone number in the format +254 7XX XXX XXX</label>
                                             <div class="invalid-feedback">
                                                 Please enter a valid phone number in the format +254 7XX XXX XXX.
                                             </div>
